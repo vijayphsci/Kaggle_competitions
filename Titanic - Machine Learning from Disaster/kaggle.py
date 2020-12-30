@@ -247,8 +247,8 @@ best_model.fit(ftrain,y)
 #prediction of test data
 test_prediction=best_model.predict(ftest)
 #%%
-#this test prediction resulted in accuracy score of  0.77511 which means 324 out of 418 were correctly predicted
-
+#this test prediction resulted in accuracy score of  0.77511 on submitting at kaggle titanic competition 
+#means 324 out of 418 test data were correctly predicted
 #%%
 new=pd.DataFrame()
 new['PassengerId']=test['PassengerId']
